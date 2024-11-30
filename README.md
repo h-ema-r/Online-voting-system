@@ -16,4 +16,7 @@ Here are some screenshots of the application:
 - **Login Page**:
   ![Login Page](https://github.com/h-ema-r/Online-voting-system/blob/main/login.png)
 
+ - **Dashboard Page**:
+  ![Login Page] (https://github.com/h-ema-r/Online-voting-system/blob/main/dashboard-online-voting-system.png)
+
 
