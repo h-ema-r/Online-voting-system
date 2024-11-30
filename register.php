@@ -47,7 +47,8 @@ if (isset($_POST['submit'])) {
             $stmt->bindParam(6, $role, PDO::PARAM_STR);
 
             if ($stmt->execute()) {
-                echo "Data successfully inserted";
+                //echo "Data successfully inserted";
+                header('location:login.php');
             } else {
                 echo "Error: " . implode(", ", $stmt->errorInfo());
             }
@@ -75,7 +76,7 @@ if (isset($_POST['submit'])) {
 <div class="container w-50 bg-light p-4 rounded">
     <h2 class="text-center">Registration</h2>
 
-    <form class="mt-3" method="post" enctype="multipart/form-data" action="login.php">
+    <form class="mt-3" method="post" enctype="multipart/form-data" action="register.php">
         <div class="row">
             <div class="form-group col-md-6">
                 <input type="text" class="form-control" placeholder="Name" name="name" required autocomplete="off">
