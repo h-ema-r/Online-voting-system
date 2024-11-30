@@ -1,7 +1,5 @@
 # Online Voting System
 
-## This project is still a work in progress.
-
 ## Features
 - **Registration**: Users can create an account by providing their name, mobile number, password, address, and uploading an image.
 - **Login**: After registering, users can log in based on their role (either **Voter** or **Group**).
